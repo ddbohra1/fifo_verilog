@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="data_processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="data_processor_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999994716fs"></ZoomStartTime>
+      <ZoomEndTime time="1000001057fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/data_processor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_write_en" type="logic">
+      <obj_property name="ElementShortName">fifo1_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo1_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_read_en" type="logic">
+      <obj_property name="ElementShortName">fifo1_read_en</obj_property>
+      <obj_property name="ObjectShortName">fifo1_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_data_in" type="array">
+      <obj_property name="ElementShortName">fifo1_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo1_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_data_out" type="array">
+      <obj_property name="ElementShortName">fifo1_data_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo1_data_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_ready" type="logic">
+      <obj_property name="ElementShortName">fifo1_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo1_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo1_empty" type="logic">
+      <obj_property name="ElementShortName">fifo1_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo1_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_write_en" type="logic">
+      <obj_property name="ElementShortName">fifo2_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo2_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_read_en" type="logic">
+      <obj_property name="ElementShortName">fifo2_read_en</obj_property>
+      <obj_property name="ObjectShortName">fifo2_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_data_in" type="array">
+      <obj_property name="ElementShortName">fifo2_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo2_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_data_out" type="array">
+      <obj_property name="ElementShortName">fifo2_data_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo2_data_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_ready" type="logic">
+      <obj_property name="ElementShortName">fifo2_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo2_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/fifo2_empty" type="logic">
+      <obj_property name="ElementShortName">fifo2_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo2_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/recovered_data_item" type="array">
+      <obj_property name="ElementShortName">recovered_data_item[7:0]</obj_property>
+      <obj_property name="ObjectShortName">recovered_data_item[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/data_processor_tb/CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
