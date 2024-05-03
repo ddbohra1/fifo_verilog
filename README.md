@@ -1,5 +1,6 @@
-LAb exam question of IIT jodhpur 
-Course : HW SW CO DESIGN
+LAb exam question of IIT jodhpur |
+Course : HW SW CO DESIGN |
+
 Question asked about to design the system such that there are two FIFOs with different depths. Input stream of each FIFO is of size 8 bits.
 check the ready signal of both FIFO. Offloading the value from the FIFO which ready signal appears first.
 Data will be of 8 bits and make square of this 8 bit data.
