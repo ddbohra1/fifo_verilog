@@ -1,4 +1,4 @@
-LAb exam question of IIT jodhpur |
+LAb exam question of IIT jodhpur <br/>
 Course : HW SW CO DESIGN |
 
 Question asked about to design the system such that there are two FIFOs with different depths. Input stream of each FIFO is of size 8 bits.
